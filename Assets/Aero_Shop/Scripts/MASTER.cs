@@ -81,7 +81,7 @@ public class MASTER : MonoBehaviour
 
     IEnumerator Wartezeit()
     {
-        yield return new WaitForSecondsRealtime(5);
+        yield return new WaitForSecondsRealtime(4);
         Sprechblase.SetActive(false);
     }
 
